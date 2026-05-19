@@ -1,0 +1,37 @@
+# Models & data (large or sensitive)
+models/
+data/source_text/
+data/qa_seed.jsonl
+data/qa_train.jsonl
+data/qa_val.jsonl
+data/qa_test.jsonl
+data/corpus_chunks.json
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Results
+results/*.csv
+results/*.json
+results/*.png
+results/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.key
